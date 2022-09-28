@@ -1,0 +1,169 @@
+user      admin
+reg        reg
+update     update     
+search     search
+           viealluser
+           deleteuser
+
+P1
+class User
+{
+   reg(){}
+   update(){}         
+   search(){}
+}
+objuser
+
+class Admin
+{
+   reg(){}
+   update(){}         
+   search(){}
+   viealluser(){}
+   deleteuser(){}
+}
+objadmin
+*************************************************
+P2
+class User
+{
+   reg(){}
+   update(){}         
+   search(){}
+}
+objuser
+
+ Child/Derived     Parent/Base
+class Admin extends User
+{
+   viealluser(){}
+   deleteuser(){}
+}
+objadmin
+
+--------------------------------------------
+OVERLOADNG - No of parameter is different
+void f1(int x){ }
+void f1(int x, int y){ }
+------------------------------------
+OVERLOADNG - Different data type
+void f1(int x, double y){ }
+int f1(double x, int y){ }
+------------------------------------------------------
+OVERLOADNG - Different data type
+void f1(int x){ }
+int f1(double x){ }
+--------------------------------------------
+NOT OVERLOADNG - dependes on the return type
+void f1(int x){ }
+int f1(int y){ }
+--------------------------
+NOT OVERLOADNG bcz it only checks data type
+same datatype not allowed
+void f1(int x){ }
+void f1(int y){ }
+----------------------------------------------------------
+i  limit
+1 < 5 T
+2 < 5 T
+3 < 5
+
+---------------------------
+Arithmetic   Relational  Assignment+ - *           >           =
+/ Div (Q)       <
+% Mod (R)       >=
+                <=
+a = 9           !=
+b = 2
+c = a/b = 4 
+d = a%b = 1
+
+UNARY
+++ / --
+
+pre         post
+a= 5        a=5
+b =++a      b=a++
+a 6         a 6
+b 6         b 5
+
+LOGICAL
+&& AND
+|| OR
+! NOT
+
+    x>y      x>z
+if cond1 &&  cond2
+    F        not execute =>F
+    T        check
+             T -> T
+             F -> F
+
+    x>y      x>z
+if cond1 ||  cond2
+    T        not execute =>T
+    F        check
+             T -> T
+             F -> F 
+
+
+
+
+
+
+1  int
+'1' char
+"1" string
+1.0 double
+--------------------------------------
+    byte * int
+     5      2
+     int * int
+      5     2
+         int(10)
+
+        bits
+byte    8
+short   16
+int     32
+long    64
+
+float  32
+double 64
+
+char 16
+
+boolean  1
+True/False
+-------------------------------------------
+ASCII UNICODE
+A 65   a 97     0 48
+B 66   b 98
+
+Z 90   z 122    9 57
+------------------------------------------
+C:\Java\jdk1.8.0_05\bin
+
+C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Java\jdk1.8.0_05\bin
+------------------------------------------------------
+("THE SUM OF "+ firstno + " AND "+ secondno + " IS "+(firstno + secondno));
+
+JAVA INPUT/OUTPUT -> STRING
+printf("The sum is %d", v1)
+       "The sum is " + v1
+
+--------------------------------------------------------
+
+string + int/float/double => STRING
+    concatenate 
+
+int/float/double + string => String
+           concatenate
+
+int/float/double + int/float/double
+              addition
+
+
+CLASS NAME
+AddTwoNo
+LoanCalc
