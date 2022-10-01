@@ -1,0 +1,13 @@
+TAKE HELP FROM EMP PROG
+
+1. STORE N NO OF STUDENTS INFORMATION
+   For Each student
+   rollno, name, totalmarks
+
+2. add N students in an arraylist
+
+3. display all students
+
+4. search student by his/her roll no
+
+5. DISLPAY RESULT IN SORTED ORDER BY TOTAL MARKS
